@@ -1,0 +1,29 @@
+# Nmap 7.95 scan initiated Fri May 30 11:02:31 2025 as: /usr/lib/nmap/nmap --privileged -sV -oN scan2.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.00042s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     Dropbear sshd 2012.55 (protocol 2.0)
+53/tcp   open  domain  ISC BIND 9.18.36
+80/tcp   open  http    TP-LINK WAP http config
+1900/tcp open  upnp    Portable SDK for UPnP devices 1.6.19 (Linux 2.6.36; UPnP 1.0)
+MAC Address: 60:A4:B7:81:D6:28 (TP-Link Limited)
+Service Info: OS: Linux; Device: WAP; CPE: cpe:/o:linux:linux_kernel, cpe:/o:linux:linux_kernel:2.6.36
+
+Nmap scan report for 192.168.0.114
+Host is up (0.00028s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE SERVICE         VERSION
+903/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+5357/tcp open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+7070/tcp open  ssl/realserver?
+MAC Address: 18:C0:4D:55:B3:CC (Giga-byte Technology)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.0.122
+Host is up (0.0000080s latency).
+All 1000 scanned ports on 192.168.0.122 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 30 11:02:49 2025 -- 256 IP addresses (3 hosts up) scanned in 17.98 seconds
